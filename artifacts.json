@@ -843,9 +843,9 @@
   {
     "path": "physical/macros/sram_4k_final_repaired/QUALIFICATION.md",
     "unpacked_path": "physical/macros/sram_4k_final_repaired/QUALIFICATION.md",
-    "sha256": "2f59b9cbf13b75de6ce78d265d739fdb5247d1bdc2948ebf45b7d3e4e17dcfec",
-    "bytes": 2693,
-    "stored_bytes": 2693
+    "sha256": "848d787f29f07e4cab793f892cbcb3a05e7c982eb2229442de6fe3dadce09f61",
+    "bytes": 2839,
+    "stored_bytes": 2839
   },
   {
     "path": "physical/macros/sram_4k_final_repaired/release_manifest.json",
