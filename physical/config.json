@@ -1,0 +1,368 @@
+{
+  "DESIGN_NAME": "pico_soc",
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "VERILOG_FILES": [
+    "dir::src/pico_soc.v",
+    "dir::src/device_select.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 30,
+  "PNR_SDC_FILE": "dir::constraints.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraints_signoff.sdc",
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 40,
+  "FP_ASPECT_RATIO": 1.19,
+  "PL_TARGET_DENSITY_PCT": 55,
+  "FP_PDN_MULTILAYER": true,
+  "FP_PDN_CORE_RING": false,
+  "VDD_NETS": [
+    "VPWR"
+  ],
+  "GND_NETS": [
+    "VGND"
+  ],
+  "VERILOG_POWER_DEFINE": "USE_POWER_PINS",
+  "STA_MACRO_PRIORITIZE_NL": true,
+  "PDN_CONNECT_MACROS_TO_GRID": true,
+  "PDN_MACRO_CONNECTIONS": [
+    "^processor$ VPWR VGND VPWR VGND",
+    "^arithmetic_unit$ VPWR VGND VPWR VGND",
+    "^D_mem_unit$ VPWR VGND vccd1 vssd1",
+    "^gpio_unit$ VPWR VGND VPWR VGND",
+    "^uart_unit$ VPWR VGND VPWR VGND"
+  ],
+  "FP_MACRO_HORIZONTAL_HALO": 10,
+  "FP_MACRO_VERTICAL_HALO": 10,
+  "FP_PDN_HORIZONTAL_HALO": 10,
+  "FP_PDN_VERTICAL_HALO": 10,
+  "RT_MAX_LAYER": "met5",
+  "RT_CLOCK_MIN_LAYER": "met3",
+  "RT_CLOCK_MAX_LAYER": "met4",
+  "DIODE_ON_PORTS": "both",
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "GRT_ANTENNA_ITERS": 15,
+  "GRT_ANTENNA_MARGIN": 50,
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.5,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.5,
+  "MACROS": {
+    "picorv32": {
+      "gds": [
+        "dir::macros/picorv32/gds/picorv32.gds"
+      ],
+      "lef": [
+        "dir::macros/picorv32/lef/picorv32.lef"
+      ],
+      "vh": [
+        "dir::macros/picorv32/vh/picorv32.vh"
+      ],
+      "nl": [
+        "dir::macros/picorv32/nl/picorv32.nl.v"
+      ],
+      "pnl": [
+        "dir::macros/picorv32/pnl/picorv32.pnl.v"
+      ],
+      "lib": {
+        "min_ss_100C_1v60": [
+          "dir::macros/picorv32/lib/min_ss_100C_1v60/picorv32__min_ss_100C_1v60.lib"
+        ],
+        "max_ff_n40C_1v95": [
+          "dir::macros/picorv32/lib/max_ff_n40C_1v95/picorv32__max_ff_n40C_1v95.lib"
+        ],
+        "min_tt_025C_1v80": [
+          "dir::macros/picorv32/lib/min_tt_025C_1v80/picorv32__min_tt_025C_1v80.lib"
+        ],
+        "max_tt_025C_1v80": [
+          "dir::macros/picorv32/lib/max_tt_025C_1v80/picorv32__max_tt_025C_1v80.lib"
+        ],
+        "min_ff_n40C_1v95": [
+          "dir::macros/picorv32/lib/min_ff_n40C_1v95/picorv32__min_ff_n40C_1v95.lib"
+        ],
+        "max_ss_100C_1v60": [
+          "dir::macros/picorv32/lib/max_ss_100C_1v60/picorv32__max_ss_100C_1v60.lib"
+        ],
+        "nom_ff_n40C_1v95": [
+          "dir::macros/picorv32/lib/nom_ff_n40C_1v95/picorv32__nom_ff_n40C_1v95.lib"
+        ],
+        "nom_tt_025C_1v80": [
+          "dir::macros/picorv32/lib/nom_tt_025C_1v80/picorv32__nom_tt_025C_1v80.lib"
+        ],
+        "nom_ss_100C_1v60": [
+          "dir::macros/picorv32/lib/nom_ss_100C_1v60/picorv32__nom_ss_100C_1v60.lib"
+        ]
+      },
+      "spef": {
+        "max_*": [
+          "dir::macros/picorv32/spef/max/picorv32.max.spef"
+        ],
+        "nom_*": [
+          "dir::macros/picorv32/spef/nom/picorv32.nom.spef"
+        ],
+        "min_*": [
+          "dir::macros/picorv32/spef/min/picorv32.min.spef"
+        ]
+      },
+      "instances": {
+        "processor": {
+          "location": [
+            213.938,
+            40
+          ],
+          "orientation": "FS"
+        }
+      }
+    },
+    "picorv32_muldiv": {
+      "gds": [
+        "dir::macros/picorv32_muldiv/gds/picorv32_muldiv.gds"
+      ],
+      "lef": [
+        "dir::macros/picorv32_muldiv/lef/picorv32_muldiv.lef"
+      ],
+      "vh": [
+        "dir::macros/picorv32_muldiv/vh/picorv32_muldiv.vh"
+      ],
+      "nl": [
+        "dir::macros/picorv32_muldiv/nl/picorv32_muldiv.nl.v"
+      ],
+      "pnl": [
+        "dir::macros/picorv32_muldiv/pnl/picorv32_muldiv.pnl.v"
+      ],
+      "lib": {
+        "min_ss_100C_1v60": [
+          "dir::macros/picorv32_muldiv/lib/min_ss_100C_1v60/picorv32_muldiv__min_ss_100C_1v60.lib"
+        ],
+        "max_ff_n40C_1v95": [
+          "dir::macros/picorv32_muldiv/lib/max_ff_n40C_1v95/picorv32_muldiv__max_ff_n40C_1v95.lib"
+        ],
+        "min_tt_025C_1v80": [
+          "dir::macros/picorv32_muldiv/lib/min_tt_025C_1v80/picorv32_muldiv__min_tt_025C_1v80.lib"
+        ],
+        "max_tt_025C_1v80": [
+          "dir::macros/picorv32_muldiv/lib/max_tt_025C_1v80/picorv32_muldiv__max_tt_025C_1v80.lib"
+        ],
+        "min_ff_n40C_1v95": [
+          "dir::macros/picorv32_muldiv/lib/min_ff_n40C_1v95/picorv32_muldiv__min_ff_n40C_1v95.lib"
+        ],
+        "max_ss_100C_1v60": [
+          "dir::macros/picorv32_muldiv/lib/max_ss_100C_1v60/picorv32_muldiv__max_ss_100C_1v60.lib"
+        ],
+        "nom_ff_n40C_1v95": [
+          "dir::macros/picorv32_muldiv/lib/nom_ff_n40C_1v95/picorv32_muldiv__nom_ff_n40C_1v95.lib"
+        ],
+        "nom_tt_025C_1v80": [
+          "dir::macros/picorv32_muldiv/lib/nom_tt_025C_1v80/picorv32_muldiv__nom_tt_025C_1v80.lib"
+        ],
+        "nom_ss_100C_1v60": [
+          "dir::macros/picorv32_muldiv/lib/nom_ss_100C_1v60/picorv32_muldiv__nom_ss_100C_1v60.lib"
+        ]
+      },
+      "spef": {
+        "max_*": [
+          "dir::macros/picorv32_muldiv/spef/max/picorv32_muldiv.max.spef"
+        ],
+        "nom_*": [
+          "dir::macros/picorv32_muldiv/spef/nom/picorv32_muldiv.nom.spef"
+        ],
+        "min_*": [
+          "dir::macros/picorv32_muldiv/spef/min/picorv32_muldiv.min.spef"
+        ]
+      },
+      "instances": {
+        "arithmetic_unit": {
+          "location": [
+            40.0,
+            771.76
+          ],
+          "orientation": "S"
+        }
+      }
+    },
+    "gpio_ip": {
+      "gds": [
+        "dir::macros/gpio_ip/gds/gpio_ip.gds"
+      ],
+      "lef": [
+        "dir::macros/gpio_ip/lef/gpio_ip.lef"
+      ],
+      "vh": [
+        "dir::macros/gpio_ip/vh/gpio_ip.vh"
+      ],
+      "nl": [
+        "dir::macros/gpio_ip/nl/gpio_ip.nl.v"
+      ],
+      "pnl": [
+        "dir::macros/gpio_ip/pnl/gpio_ip.pnl.v"
+      ],
+      "lib": {
+        "min_ss_100C_1v60": [
+          "dir::macros/gpio_ip/lib/min_ss_100C_1v60/gpio_ip__min_ss_100C_1v60.lib"
+        ],
+        "max_ff_n40C_1v95": [
+          "dir::macros/gpio_ip/lib/max_ff_n40C_1v95/gpio_ip__max_ff_n40C_1v95.lib"
+        ],
+        "min_tt_025C_1v80": [
+          "dir::macros/gpio_ip/lib/min_tt_025C_1v80/gpio_ip__min_tt_025C_1v80.lib"
+        ],
+        "max_tt_025C_1v80": [
+          "dir::macros/gpio_ip/lib/max_tt_025C_1v80/gpio_ip__max_tt_025C_1v80.lib"
+        ],
+        "min_ff_n40C_1v95": [
+          "dir::macros/gpio_ip/lib/min_ff_n40C_1v95/gpio_ip__min_ff_n40C_1v95.lib"
+        ],
+        "max_ss_100C_1v60": [
+          "dir::macros/gpio_ip/lib/max_ss_100C_1v60/gpio_ip__max_ss_100C_1v60.lib"
+        ],
+        "nom_ff_n40C_1v95": [
+          "dir::macros/gpio_ip/lib/nom_ff_n40C_1v95/gpio_ip__nom_ff_n40C_1v95.lib"
+        ],
+        "nom_tt_025C_1v80": [
+          "dir::macros/gpio_ip/lib/nom_tt_025C_1v80/gpio_ip__nom_tt_025C_1v80.lib"
+        ],
+        "nom_ss_100C_1v60": [
+          "dir::macros/gpio_ip/lib/nom_ss_100C_1v60/gpio_ip__nom_ss_100C_1v60.lib"
+        ]
+      },
+      "spef": {
+        "max_*": [
+          "dir::macros/gpio_ip/spef/max/gpio_ip.max.spef"
+        ],
+        "nom_*": [
+          "dir::macros/gpio_ip/spef/nom/gpio_ip.nom.spef"
+        ],
+        "min_*": [
+          "dir::macros/gpio_ip/spef/min/gpio_ip.min.spef"
+        ]
+      },
+      "instances": {
+        "gpio_unit": {
+          "location": [
+            934.977,
+            40
+          ],
+          "orientation": "N"
+        }
+      }
+    },
+    "uart_ip": {
+      "gds": [
+        "dir::macros/uart_ip_30ns/gds/uart_ip.gds"
+      ],
+      "lef": [
+        "dir::macros/uart_ip_30ns/lef/uart_ip.lef"
+      ],
+      "vh": [
+        "dir::macros/uart_ip_30ns/vh/uart_ip.vh"
+      ],
+      "nl": [
+        "dir::macros/uart_ip_30ns/nl/uart_ip.nl.v"
+      ],
+      "pnl": [
+        "dir::macros/uart_ip_30ns/pnl/uart_ip.pnl.v"
+      ],
+      "lib": {
+        "min_ss_100C_1v60": [
+          "dir::macros/uart_ip_30ns/lib/min_ss_100C_1v60/uart_ip__min_ss_100C_1v60.lib"
+        ],
+        "max_ff_n40C_1v95": [
+          "dir::macros/uart_ip_30ns/lib/max_ff_n40C_1v95/uart_ip__max_ff_n40C_1v95.lib"
+        ],
+        "min_tt_025C_1v80": [
+          "dir::macros/uart_ip_30ns/lib/min_tt_025C_1v80/uart_ip__min_tt_025C_1v80.lib"
+        ],
+        "max_tt_025C_1v80": [
+          "dir::macros/uart_ip_30ns/lib/max_tt_025C_1v80/uart_ip__max_tt_025C_1v80.lib"
+        ],
+        "min_ff_n40C_1v95": [
+          "dir::macros/uart_ip_30ns/lib/min_ff_n40C_1v95/uart_ip__min_ff_n40C_1v95.lib"
+        ],
+        "max_ss_100C_1v60": [
+          "dir::macros/uart_ip_30ns/lib/max_ss_100C_1v60/uart_ip__max_ss_100C_1v60.lib"
+        ],
+        "nom_ff_n40C_1v95": [
+          "dir::macros/uart_ip_30ns/lib/nom_ff_n40C_1v95/uart_ip__nom_ff_n40C_1v95.lib"
+        ],
+        "nom_tt_025C_1v80": [
+          "dir::macros/uart_ip_30ns/lib/nom_tt_025C_1v80/uart_ip__nom_tt_025C_1v80.lib"
+        ],
+        "nom_ss_100C_1v60": [
+          "dir::macros/uart_ip_30ns/lib/nom_ss_100C_1v60/uart_ip__nom_ss_100C_1v60.lib"
+        ]
+      },
+      "spef": {
+        "max_*": [
+          "dir::macros/uart_ip_30ns/spef/max/uart_ip.max.spef"
+        ],
+        "nom_*": [
+          "dir::macros/uart_ip_30ns/spef/nom/uart_ip.nom.spef"
+        ],
+        "min_*": [
+          "dir::macros/uart_ip_30ns/spef/min/uart_ip.min.spef"
+        ]
+      },
+      "instances": {
+        "uart_unit": {
+          "location": [
+            76.798,
+            40
+          ],
+          "orientation": "N"
+        }
+      }
+    },
+    "sram_4k_final": {
+      "gds": [
+        "dir::macros/sram_4k_final_repaired/sram_4k_final.gds"
+      ],
+      "lef": [
+        "dir::macros/sram_4k_final_repaired/sram_4k_final.lef"
+      ],
+      "vh": [
+        "dir::macros/sram_4k_final/sram_4k_final.vh"
+      ],
+      "spice": [
+        "dir::macros/sram_4k_final_repaired/sram_4k_final.lvs.sp"
+      ],
+      "lib": {
+        "*_tt_025C_1v80": [
+          "dir::macros/sram_4k_final_repaired/sram_4k_final_TT_1p8V_25C.lib"
+        ],
+        "*_ss_100C_1v60": [
+          "dir::macros/sram_4k_final_repaired/sram_4k_final_SS_1p6V_100C.lib"
+        ],
+        "*_ff_n40C_1v95": [
+          "dir::macros/sram_4k_final_repaired/sram_4k_final_FF_1p95V_-40C.lib"
+        ]
+      },
+      "instances": {
+        "D_mem_unit": {
+          "location": [
+            597.57,
+            771.76
+          ],
+          "orientation": "N"
+        }
+      }
+    }
+  },
+  "FP_PDN_HPITCH": 80,
+  "GRT_ADJUSTMENT": 0.1,
+  "EXTRA_EXCLUDED_CELLS": [
+    "sky130_fd_sc_hd__buf_1",
+    "sky130_fd_sc_hd__buf_2",
+    "sky130_fd_sc_hd__clkbuf_1",
+    "sky130_fd_sc_hd__clkbuf_2",
+    "sky130_fd_sc_hd__dlygate*"
+  ],
+  "SYNTH_CLK_DRIVING_CELL": "sky130_fd_sc_hd__clkbuf_16/X",
+  "GRT_DESIGN_REPAIR_MAX_CAP_PCT": 50,
+  "GRT_DESIGN_REPAIR_MAX_SLEW_PCT": 20,
+  "CLOCK_WIRE_RC_LAYERS": [
+    "met3",
+    "met4"
+  ],
+  "MAGIC_DRC_USE_GDS": false
+}

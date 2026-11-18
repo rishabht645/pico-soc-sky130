@@ -1,0 +1,10 @@
+src/picorv32.v
+src/picorv32_muldiv.v
+src/sram_uc4k.v
+src/device_select.v
+src/gpio_ip.v
+src/regs_uart.v
+src/uart_tx.v
+src/uart_ip.v
+src/top.v
+tb_processor.v

@@ -1,0 +1,14 @@
+{
+  "sram_4k_final_sky130_col_cap_array": {
+    "native_bbox": "(-35,-50;321235,2055)",
+    "repaired_bbox": "(-35,-50;321235,2055)",
+    "geometric_differences": {},
+    "identical_geometry": true
+  },
+  "sram_4k_final_sky130_col_cap_array_0": {
+    "native_bbox": "(-35,-50;321235,2055)",
+    "repaired_bbox": "(-35,-50;321235,2055)",
+    "geometric_differences": {},
+    "identical_geometry": true
+  }
+}

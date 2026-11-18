@@ -1,0 +1,19 @@
+[dumpfile] "soc_gate.vcd"
+[size] 1500 850
+*-18.000000 17000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[timestart] 16500000
+@28
+tb_processor.clk
+tb_processor.reset_n
+tb_processor.dut.pcpi_valid
+tb_processor.dut.pcpi_wait
+tb_processor.dut.pcpi_ready
+@22
+tb_processor.dut.arithmetic_unit.pcpi_insn[31:0]
+tb_processor.dut.arithmetic_unit.pcpi_rs1[31:0]
+tb_processor.dut.arithmetic_unit.pcpi_rs2[31:0]
+tb_processor.dut.arithmetic_unit.pcpi_rd[31:0]
+@28
+tb_processor.uart_tx
+@22
+tb_processor.gpio_out[31:0]

@@ -1,0 +1,54 @@
+{
+  "clock_period_ns": 30,
+  "full_merged_gds_klayout_drc": 0,
+  "parent_lvs": 0,
+  "sram_native_hierarchical_magic_drc": 0,
+  "sram_full_gds_klayout_drc": 0,
+  "sram_full_transistor_lvs": "v3 full match uniquely; v4 changed-cell equivalence PASS and all other geometry identical",
+  "setup_slack_ns": 0.960838547033323,
+  "hold_slack_ns": 0.4374947195015898,
+  "setup_tns_ns": 0,
+  "hold_tns_ns": 0,
+  "slew_violations": 0,
+  "capacitance_violations": 0,
+  "fanout_violations": 0,
+  "streamout_xor_differences": 0,
+  "parent_default_def_lef_magic_raw_flags": 1435,
+  "parent_full_stdcell_gds_hierarchical_magic_raw_flags": 20,
+  "parent_hierarchical_magic_unresolved_flags": 0,
+  "raw_full_gds_magic_signoff_claimed": false,
+  "timing_reuse_basis": "Identical routed ODB, SPEF, macro interface and Liberty; v4 only removes internal pwell.pin metadata on layer 122/16. Every other layer is geometrically identical.",
+  "reused_stages": [
+    "synthesis",
+    "floorplanning",
+    "placement",
+    "CTS",
+    "routing",
+    "parent RC extraction"
+  ],
+  "clock_ndr": "Top only: met3/met4 2W2S; retained DEF and clock routes unchanged",
+  "limits": [
+    "SRAM native timing uses non-PEX transistor netlist and common read-valid delay bound",
+    "Trimmed SRAM leakage is not full-macro signoff leakage",
+    "Magic coverage is hierarchical; raw full-GDS Magic vendor-mask import is unqualified"
+  ],
+  "xor_ignored_layers": [
+    "81/14"
+  ],
+  "representative_max_ss_sram_output_slew_ns": 0.879181,
+  "representative_slew_pin": "D_mem_unit/dout0[4] on reported setup path",
+  "worst_clock_setup_skew_ns": 0.9586202103450806,
+  "worst_clock_hold_skew_ns": -0.9542812365975261,
+  "final_utilization_percent": 41.5191,
+  "target_utilization_percent": 40,
+  "die_area_um2": 2617890,
+  "core_area_um2": 2564040,
+  "routed_wirelength_um": 436614,
+  "functional_validation": {
+    "result": "256 RV32M operations, SRAM/GPIO and 22 UART frames passed using routed logic netlist at 30 ns",
+    "sram": "behavioral model with simulation preload",
+    "sdf_annotated": false,
+    "startup_sp": "Reused CPU resets SP to 0xffffffff; supplied validation firmware explicitly sets SP to 0x1000 before use.",
+    "boot_loading": "Simulation preload supplies firmware; silicon boot-loading hardware is not implemented by this validation."
+  }
+}

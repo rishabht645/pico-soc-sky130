@@ -1,0 +1,14 @@
+[globcfg]
+data_width = 32
+address_width = 32
+register_reset = sync_pos
+
+[v_module]
+path = ../../src/regs_uart.v
+interface = lb
+generator = Verilog
+
+[c_header]
+path = ../../firmware/uart_generated.h
+prefix = UCSR
+generator = CHeader

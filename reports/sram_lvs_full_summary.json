@@ -1,0 +1,11 @@
+{
+  "violations": 0,
+  "scope": "full installed SKY130 KLayout FEOL/BEOL/offgrid/seal deck; SRAM exclusions disabled",
+  "candidate": "sram_4k_repaired_v3.gds",
+  "qualified": false,
+  "remaining_validation": [
+    "internal LVS",
+    "characterization",
+    "parent reintegration"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source_def": "<original-project>/runs/soc_25ns_02/48-custom-socdetailedrouting/pico_soc.def",
+  "ndr": "CLK_2W2S",
+  "clock_global_route_layers": [
+    "met3",
+    "met4"
+  ],
+  "note": "Other layer segments are nominal-width access/escape routing, not 2W2S clock trunks. Parent-only rule.",
+  "nets": [
+    {
+      "net": "clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "clk_regs",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "clknet_0_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "clknet_0_clk_regs",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2"
+      ]
+    },
+    {
+      "net": "clknet_1_0__leaf_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3"
+      ]
+    },
+    {
+      "net": "clknet_1_0__leaf_clk_regs",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2"
+      ]
+    },
+    {
+      "net": "clknet_1_1__leaf_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "clknet_1_1__leaf_clk_regs",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3"
+      ]
+    },
+    {
+      "net": "delaynet_0_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "delaynet_1_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3",
+        "met4"
+      ]
+    },
+    {
+      "net": "delaynet_2_clk",
+      "route_layers": [
+        "li1",
+        "met1",
+        "met2",
+        "met3"
+      ]
+    }
+  ]
+}

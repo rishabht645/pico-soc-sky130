@@ -1,0 +1,24 @@
+{
+  "source_run": "soc_30ns_01",
+  "reused_views": {
+    "nl": "<original-project>/runs/soc_30ns_01/final_unqualified/nl/pico_soc.nl.v",
+    "pnl": "<original-project>/runs/soc_30ns_01/final_unqualified/pnl/pico_soc.pnl.v",
+    "def": "<original-project>/runs/soc_30ns_01/final_unqualified/def/pico_soc.def",
+    "odb": "<original-project>/runs/soc_30ns_01/final_unqualified/odb/pico_soc.odb",
+    "sdc": "<original-project>/runs/soc_30ns_01/final_unqualified/sdc/pico_soc.sdc",
+    "spef": {
+      "nom_*": "<original-project>/runs/soc_30ns_01/final_unqualified/spef/nom_*/pico_soc.nom.spef",
+      "min_*": "<original-project>/runs/soc_30ns_01/final_unqualified/spef/min_*/pico_soc.min.spef",
+      "max_*": "<original-project>/runs/soc_30ns_01/final_unqualified/spef/max_*/pico_soc.max.spef"
+    }
+  },
+  "odb_sha256": "df99ff8a83429a153cb9a3da6e77b063319c6f832e63f5488def09cdf7406e62",
+  "regenerate": [
+    "macro GDS merge",
+    "STA with recharacterized SRAM",
+    "DRC",
+    "extraction/LVS",
+    "final reports"
+  ],
+  "qualification": "pending; SRAM candidate not released"
+}

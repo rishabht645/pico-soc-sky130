@@ -1,0 +1,14 @@
+{
+  "ff": {
+    "period_ns": 3.59375,
+    "evidence": "Original native OpenRAM run completed period search and measured load/slew grid at this period; completed final maximal load/slew result preserved."
+  },
+  "tt": {
+    "period_ns": 5.9375,
+    "evidence": "Original native OpenRAM run completed period search and is measuring the load/slew grid at this period."
+  },
+  "ss": {
+    "period_ns": 10.9375,
+    "evidence": "Original native OpenRAM run completed period search, then power measurement, at this period; maximal load/slew result is cached."
+  }
+}

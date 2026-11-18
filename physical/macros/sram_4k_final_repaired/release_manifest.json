@@ -1,0 +1,50 @@
+{
+  "version": "v4",
+  "qualification": "<original-project>/runs/soc_30ns_sramfix_01/qualification.json",
+  "views": [
+    {
+      "file": "sram_4k_final.vh",
+      "sha256": "67557ab8b28acc97f20d479f5b7a7146e3ed478b98645b59d1e22d5acf3cfd6a"
+    },
+    {
+      "file": "QUALIFICATION.md",
+      "sha256": "2f59b9cbf13b75de6ce78d265d739fdb5247d1bdc2948ebf45b7d3e4e17dcfec"
+    },
+    {
+      "file": "sram_4k_final.gds",
+      "sha256": "35a18e33165ac90c1ee6fa4d95d7458fdf756881f4e8ae325883dafc9631f2c8"
+    },
+    {
+      "file": "sram_4k_final_FF_1p95V_-40C.lib",
+      "sha256": "da2efcf3cac6f41edf5eee1b695ec6da2ab98c2123865d6028e83a4900b0a676"
+    },
+    {
+      "file": "sram_4k_final.lef",
+      "sha256": "75d6eefd42c8e9cda09c0ade08d6c032131673020fba914849011cd6f6422829"
+    },
+    {
+      "file": "sram_4k_final_SS_1p6V_100C.adaptation.json",
+      "sha256": "2fbb0e836c23d4265874b10b896828766185e9e4114def440b17bc96b9b3180a"
+    },
+    {
+      "file": "sram_4k_final_TT_1p8V_25C.adaptation.json",
+      "sha256": "109fb466601f6e9cabc034831858aec449d9611bf4c2733a101388da7c0b7fe7"
+    },
+    {
+      "file": "sram_4k_final_SS_1p6V_100C.lib",
+      "sha256": "2b113e4ec3ce859d9b340f0870d1f7cb3c2edb964aca16dbcf0038dc1df1b509"
+    },
+    {
+      "file": "sram_4k_final_FF_1p95V_-40C.adaptation.json",
+      "sha256": "4a578f2f51c1f7da80cce245339cc790f0dbcdbc764b5587d37b8810f062e0d8"
+    },
+    {
+      "file": "sram_4k_final_TT_1p8V_25C.lib",
+      "sha256": "7de71aaf933047d75ad20b059f822426bf758222207eb8e27e633c23356a7767"
+    },
+    {
+      "file": "sram_4k_final.lvs.sp",
+      "sha256": "eee2eb06ceee31ef41293ce39360f38e540545a3a5555347246481e10bf69e64"
+    }
+  ]
+}

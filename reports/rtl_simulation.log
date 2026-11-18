@@ -1,0 +1,48 @@
+mkdir -p build
+iverilog -g2012 -Wall -s tb_muldiv -o build/unit src/picorv32_muldiv.v tests/tb_muldiv.v
+vvp build/unit
+PASS: 3202 standalone PCPI arithmetic cases, unsupported opcode and reset recovery
+tests/tb_muldiv.v:67: $finish called at 801440000 (1ps)
+iverilog -g2012 -Wall -s tb_processor -o build/sim -c files.f
+src/sram_uc4k.v:6: warning: timescale for sram_uc4k inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/device_select.v:1: warning: timescale for device_select inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/gpio_ip.v:3: warning: timescale for gpio_ip inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/regs_uart.v:3: warning: timescale for regs_uart inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/uart_tx.v:10: warning: timescale for uart_tx inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/uart_ip.v:1: warning: timescale for uart_ip inherited from another file.
+src/picorv32_muldiv.v:2: ...: The inherited timescale is here.
+src/picorv32.v:1347: warning: @* is sensitive to all 32 words in array 'cpuregs'.
+src/picorv32.v:1348: warning: @* is sensitive to all 32 words in array 'cpuregs'.
+mkdir -p build
+cp prebuilt/firmware.hex build/firmware.hex
+vvp build/sim
+VCD info: dumpfile build/tb_processor.vcd opened for output.
+UART byte[0] = 50
+UART byte[1] = 69
+UART byte[2] = 63
+UART byte[3] = 6f
+UART byte[4] = 52
+UART byte[5] = 56
+UART byte[6] = 33
+UART byte[7] = 32
+UART byte[8] = 20
+UART byte[9] = 55
+UART byte[10] = 41
+UART byte[11] = 52
+UART byte[12] = 54
+UART byte[13] = 20
+UART byte[14] = 4f
+UART byte[15] = 4b
+UART byte[16] = 0d
+UART byte[17] = 0a
+UART byte[18] = 00
+UART byte[19] = ff
+UART byte[20] = 55
+UART byte[21] = aa
+PASS: 256 CPU RV32M operations (32 per instruction), SRAM + GPIO + 22 UART frames
+tb_processor.v:72: $finish called at 3161940000 (1ps)

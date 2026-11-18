@@ -1,0 +1,34 @@
+{
+  "bbox_unchanged": true,
+  "bbox_dbu": "(0,0;485805,528855)",
+  "layers": {
+    "li1": {
+      "added_area_um2": 0.10529999999999999,
+      "outside_existing_lef_obstructions_or_pins_um2": 0
+    },
+    "met1": {
+      "added_area_um2": 0.0312,
+      "outside_existing_lef_obstructions_or_pins_um2": 0.0
+    },
+    "met2": {
+      "added_area_um2": 0.04425,
+      "outside_existing_lef_obstructions_or_pins_um2": 0.0
+    },
+    "met3": {
+      "added_area_um2": 0.04455,
+      "outside_existing_lef_obstructions_or_pins_um2": 0.0
+    },
+    "met4": {
+      "added_area_um2": 0.0,
+      "outside_existing_lef_obstructions_or_pins_um2": 0.0
+    },
+    "met5": {
+      "added_area_um2": 0.0,
+      "outside_existing_lef_obstructions_or_pins_um2": 0.0
+    }
+  },
+  "pin_geometry_gaps": [],
+  "parent_route_li1_inside_sram_area_um2": 0.0,
+  "li1_obstruction_update_required": true,
+  "routing_reuse_compatible": true
+}

@@ -1,0 +1,1179 @@
+[
+  {
+    "path": "physical/final/gds/pico_soc.gds.xz",
+    "unpacked_path": "physical/final/gds/pico_soc.gds",
+    "sha256": "aba3924b626206da8de8032b82f6a1064ab59ee83b8f3b568f6fcd08611d6d7d",
+    "bytes": 131102986,
+    "stored_bytes": 13849052,
+    "parts": [
+      "physical/final/gds/pico_soc.gds.xz.part001",
+      "physical/final/gds/pico_soc.gds.xz.part002",
+      "physical/final/gds/pico_soc.gds.xz.part003",
+      "physical/final/gds/pico_soc.gds.xz.part004"
+    ],
+    "compression": "xz"
+  },
+  {
+    "path": "physical/final/def/pico_soc.def.gz",
+    "unpacked_path": "physical/final/def/pico_soc.def",
+    "sha256": "08e68ab1b32d7fb33e360db80adf3b304b14170d06dba02783616047e76668f3",
+    "bytes": 17200711,
+    "stored_bytes": 1194080
+  },
+  {
+    "path": "physical/final/lef/pico_soc.lef",
+    "unpacked_path": "physical/final/lef/pico_soc.lef",
+    "sha256": "06113f1b340d6d2b04d54f72cea16a17cbfa3b1c437282e1ab257ee3a1ca31e3",
+    "bytes": 24087,
+    "stored_bytes": 24087
+  },
+  {
+    "path": "physical/final/odb/pico_soc.odb.gz",
+    "unpacked_path": "physical/final/odb/pico_soc.odb",
+    "sha256": "8f9e3768b993fddcb38254e661df19b4f91298a90b6b69d01a583ebb35fcb3dc",
+    "bytes": 50118453,
+    "stored_bytes": 8220953,
+    "parts": [
+      "physical/final/odb/pico_soc.odb.gz.part001",
+      "physical/final/odb/pico_soc.odb.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/final/nl/pico_soc.nl.v.gz",
+    "unpacked_path": "physical/final/nl/pico_soc.nl.v",
+    "sha256": "c091ba6c66e034a3489371385d487fb6fde5302be5f0d6f4dbe263561c8385f3",
+    "bytes": 7377774,
+    "stored_bytes": 445243
+  },
+  {
+    "path": "physical/final/pnl/pico_soc.pnl.v.gz",
+    "unpacked_path": "physical/final/pnl/pico_soc.pnl.v",
+    "sha256": "fbc549459dd0cb1d8b0ee088b137396225b3bac9f433f963d85b597e93511b81",
+    "bytes": 15708324,
+    "stored_bytes": 495699
+  },
+  {
+    "path": "physical/final/sdc/pico_soc.sdc",
+    "unpacked_path": "physical/final/sdc/pico_soc.sdc",
+    "sha256": "120c0c0eceea0fdc65b8073b24c0bcb0534f82a6c3b095f858d8fc6cb7fd4cb4",
+    "bytes": 10674,
+    "stored_bytes": 10674
+  },
+  {
+    "path": "physical/final/sdf/min_ss_100C_1v60/pico_soc__min_ss_100C_1v60.sdf.gz",
+    "unpacked_path": "physical/final/sdf/min_ss_100C_1v60/pico_soc__min_ss_100C_1v60.sdf",
+    "sha256": "77f66d168a6dd5bb6295d865897847c9bbc29001aaf6627dcd091882eba965a2",
+    "bytes": 16736367,
+    "stored_bytes": 1272986
+  },
+  {
+    "path": "physical/final/sdf/max_ff_n40C_1v95/pico_soc__max_ff_n40C_1v95.sdf.gz",
+    "unpacked_path": "physical/final/sdf/max_ff_n40C_1v95/pico_soc__max_ff_n40C_1v95.sdf",
+    "sha256": "362ef1358a0bff5cd2dd949a404c057f81223790773449de3e7f64aebbe25657",
+    "bytes": 16736404,
+    "stored_bytes": 1144444
+  },
+  {
+    "path": "physical/final/sdf/min_tt_025C_1v80/pico_soc__min_tt_025C_1v80.sdf.gz",
+    "unpacked_path": "physical/final/sdf/min_tt_025C_1v80/pico_soc__min_tt_025C_1v80.sdf",
+    "sha256": "f975ea0bc2c2a66b96409defe1323caa9b27c96a4cf025ca4f55d3b09ccc6e8b",
+    "bytes": 16736365,
+    "stored_bytes": 1162040
+  },
+  {
+    "path": "physical/final/sdf/max_tt_025C_1v80/pico_soc__max_tt_025C_1v80.sdf.gz",
+    "unpacked_path": "physical/final/sdf/max_tt_025C_1v80/pico_soc__max_tt_025C_1v80.sdf",
+    "sha256": "222195eed4a3871202b1d9f504420ca394e21a93b45b4280bf18e5a03f130a8f",
+    "bytes": 16736345,
+    "stored_bytes": 1215906
+  },
+  {
+    "path": "physical/final/sdf/min_ff_n40C_1v95/pico_soc__min_ff_n40C_1v95.sdf.gz",
+    "unpacked_path": "physical/final/sdf/min_ff_n40C_1v95/pico_soc__min_ff_n40C_1v95.sdf",
+    "sha256": "70b1f95c161f8d1ee3d69136b96871d4e4567560f43e10e7754be10aefd034f3",
+    "bytes": 16736388,
+    "stored_bytes": 1089693
+  },
+  {
+    "path": "physical/final/sdf/max_ss_100C_1v60/pico_soc__max_ss_100C_1v60.sdf.gz",
+    "unpacked_path": "physical/final/sdf/max_ss_100C_1v60/pico_soc__max_ss_100C_1v60.sdf",
+    "sha256": "f1aceaee445d70fa54ef4b5cb54aee7c090f648f686eeb9f1308d92bab90098d",
+    "bytes": 16736367,
+    "stored_bytes": 1326026
+  },
+  {
+    "path": "physical/final/sdf/nom_ff_n40C_1v95/pico_soc__nom_ff_n40C_1v95.sdf.gz",
+    "unpacked_path": "physical/final/sdf/nom_ff_n40C_1v95/pico_soc__nom_ff_n40C_1v95.sdf",
+    "sha256": "004c0c166de035b4abb6163afe15cd51a53375674168b44cb9f09ed216f0686b",
+    "bytes": 16736375,
+    "stored_bytes": 1111969
+  },
+  {
+    "path": "physical/final/sdf/nom_tt_025C_1v80/pico_soc__nom_tt_025C_1v80.sdf.gz",
+    "unpacked_path": "physical/final/sdf/nom_tt_025C_1v80/pico_soc__nom_tt_025C_1v80.sdf",
+    "sha256": "ed19355d5f3efc7889cbd06688b92cf31b5b8326d6cb2f15c3a9a176725b3daf",
+    "bytes": 16736365,
+    "stored_bytes": 1184547
+  },
+  {
+    "path": "physical/final/sdf/nom_ss_100C_1v60/pico_soc__nom_ss_100C_1v60.sdf.gz",
+    "unpacked_path": "physical/final/sdf/nom_ss_100C_1v60/pico_soc__nom_ss_100C_1v60.sdf",
+    "sha256": "ea42f58b6f1044e834d91030c8f6a3cad25bfba55c78cb98698562cc1ee9e7b2",
+    "bytes": 16736367,
+    "stored_bytes": 1292606
+  },
+  {
+    "path": "physical/final/spef/max/pico_soc.max.spef.gz",
+    "unpacked_path": "physical/final/spef/max/pico_soc.max.spef",
+    "sha256": "e9173e9b97ad11c6fdef5fe41383ef5c3f4dd0560417b49d821b4923ee1cf0e3",
+    "bytes": 5163209,
+    "stored_bytes": 1169320
+  },
+  {
+    "path": "physical/final/spef/nom/pico_soc.nom.spef.gz",
+    "unpacked_path": "physical/final/spef/nom/pico_soc.nom.spef",
+    "sha256": "875f75a68766946c381c15a46a751885e172a124aef509bd4dbd892f6764c6ad",
+    "bytes": 5114269,
+    "stored_bytes": 1146065
+  },
+  {
+    "path": "physical/final/spef/min/pico_soc.min.spef.gz",
+    "unpacked_path": "physical/final/spef/min/pico_soc.min.spef",
+    "sha256": "a213f26531a47d1f839bacaa6707c01ab1cc08da19f67b51146275d4e7eee743",
+    "bytes": 5080656,
+    "stored_bytes": 1133748
+  },
+  {
+    "path": "physical/final/spice/pico_soc.spice.gz",
+    "unpacked_path": "physical/final/spice/pico_soc.spice",
+    "sha256": "adade9e3419ba2ae1e79ca35c0c4df5def29b644b7b23221b9e55f708b4d1ac7",
+    "bytes": 9537925,
+    "stored_bytes": 859861
+  },
+  {
+    "path": "physical/final/lib/min_ss_100C_1v60/pico_soc__min_ss_100C_1v60.lib",
+    "unpacked_path": "physical/final/lib/min_ss_100C_1v60/pico_soc__min_ss_100C_1v60.lib",
+    "sha256": "1286918c01f455c25783d5ed7d291cf9f0022c2ef4755889b43beece5a7d2f5f",
+    "bytes": 40271,
+    "stored_bytes": 40271
+  },
+  {
+    "path": "physical/final/lib/max_ff_n40C_1v95/pico_soc__max_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/final/lib/max_ff_n40C_1v95/pico_soc__max_ff_n40C_1v95.lib",
+    "sha256": "ac9a1d50100034f88604e44017aa11dc908c3ce32ac2b44a7b27aa7e2f4cc235",
+    "bytes": 40269,
+    "stored_bytes": 40269
+  },
+  {
+    "path": "physical/final/lib/min_tt_025C_1v80/pico_soc__min_tt_025C_1v80.lib",
+    "unpacked_path": "physical/final/lib/min_tt_025C_1v80/pico_soc__min_tt_025C_1v80.lib",
+    "sha256": "2cd640dad31b1b8c21017d7b6ec80b9ad6d2b972094926d4396327ae6f2cd6fa",
+    "bytes": 40268,
+    "stored_bytes": 40268
+  },
+  {
+    "path": "physical/final/lib/max_tt_025C_1v80/pico_soc__max_tt_025C_1v80.lib",
+    "unpacked_path": "physical/final/lib/max_tt_025C_1v80/pico_soc__max_tt_025C_1v80.lib",
+    "sha256": "a9bdffeb0972242e1c12583a430cdc2d338affa9b60a011552b4523cd8497ae7",
+    "bytes": 40268,
+    "stored_bytes": 40268
+  },
+  {
+    "path": "physical/final/lib/min_ff_n40C_1v95/pico_soc__min_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/final/lib/min_ff_n40C_1v95/pico_soc__min_ff_n40C_1v95.lib",
+    "sha256": "f0e3ef45ac352af1030d5ded4c0727484e2dc380ae0cfc1c054bd0c75b103415",
+    "bytes": 40269,
+    "stored_bytes": 40269
+  },
+  {
+    "path": "physical/final/lib/max_ss_100C_1v60/pico_soc__max_ss_100C_1v60.lib",
+    "unpacked_path": "physical/final/lib/max_ss_100C_1v60/pico_soc__max_ss_100C_1v60.lib",
+    "sha256": "60de11e3dca6c849f2894565bc61e9cd73beab389bf9bd6b63187d559e85dd4b",
+    "bytes": 40272,
+    "stored_bytes": 40272
+  },
+  {
+    "path": "physical/final/lib/nom_ff_n40C_1v95/pico_soc__nom_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/final/lib/nom_ff_n40C_1v95/pico_soc__nom_ff_n40C_1v95.lib",
+    "sha256": "bda0a3e5aa541423fee4080ef699b4406fb37cc49bb4141cf3c9474bd53e7ffb",
+    "bytes": 40269,
+    "stored_bytes": 40269
+  },
+  {
+    "path": "physical/final/lib/nom_tt_025C_1v80/pico_soc__nom_tt_025C_1v80.lib",
+    "unpacked_path": "physical/final/lib/nom_tt_025C_1v80/pico_soc__nom_tt_025C_1v80.lib",
+    "sha256": "fab29f2f2f435cade4a9b68782a42b3965187ad2144a3a10ba1f839f67eff802",
+    "bytes": 40268,
+    "stored_bytes": 40268
+  },
+  {
+    "path": "physical/final/lib/nom_ss_100C_1v60/pico_soc__nom_ss_100C_1v60.lib",
+    "unpacked_path": "physical/final/lib/nom_ss_100C_1v60/pico_soc__nom_ss_100C_1v60.lib",
+    "sha256": "1d7b92f4629593ceefff3a12489e9ab01da65d52491f8e222977ad9e6c06bb9d",
+    "bytes": 40271,
+    "stored_bytes": 40271
+  },
+  {
+    "path": "physical/final/vh/pico_soc.vh",
+    "unpacked_path": "physical/final/vh/pico_soc.vh",
+    "sha256": "bde918ee8c65210c87653451852a9ca2bb87837c59275c56433196b1b7b2cc78",
+    "bytes": 224,
+    "stored_bytes": 224
+  },
+  {
+    "path": "physical/final/metrics.json",
+    "unpacked_path": "physical/final/metrics.json",
+    "sha256": "0169f3aae9b50bb723b96d5406c5e2727794a9c85e490ca5f89ac0318ad5b221",
+    "bytes": 15849,
+    "stored_bytes": 15849
+  },
+  {
+    "path": "physical/macros/gpio_ip/gds/gpio_ip.gds.gz",
+    "unpacked_path": "physical/macros/gpio_ip/gds/gpio_ip.gds",
+    "sha256": "b8ce7e5b6bbc9cfa0dede4f77daad307e74c76553892b044ed39399da2fe6c96",
+    "bytes": 1872006,
+    "stored_bytes": 356553
+  },
+  {
+    "path": "physical/macros/gpio_ip/lef/gpio_ip.lef",
+    "unpacked_path": "physical/macros/gpio_ip/lef/gpio_ip.lef",
+    "sha256": "5cf0f1241dff163277e5133122684e48b0e892a13c6c63be8f0d88b96b774149",
+    "bytes": 45625,
+    "stored_bytes": 45625
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/max_ff_n40C_1v95/gpio_ip__max_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/max_ff_n40C_1v95/gpio_ip__max_ff_n40C_1v95.lib",
+    "sha256": "c2f79f535c968e5e76526d0ba6b95b23014825ff06518bc80e107532cca0e266",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/max_ss_100C_1v60/gpio_ip__max_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/max_ss_100C_1v60/gpio_ip__max_ss_100C_1v60.lib",
+    "sha256": "3030f6e79e1803c82b402eb7f03f28f8269794e91cec4cdd932487073692ebe2",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/max_tt_025C_1v80/gpio_ip__max_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/max_tt_025C_1v80/gpio_ip__max_tt_025C_1v80.lib",
+    "sha256": "7dfe524444c4eb7a85a8900617ce2b3b2806ce1cfddacccf6217be532c6b7a18",
+    "bytes": 117544,
+    "stored_bytes": 117544
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/min_ff_n40C_1v95/gpio_ip__min_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/min_ff_n40C_1v95/gpio_ip__min_ff_n40C_1v95.lib",
+    "sha256": "49a354a4640c6bcb23d9231e8da7876ab09589b4ba3c8413d50ddf626fb3b965",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/min_ss_100C_1v60/gpio_ip__min_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/min_ss_100C_1v60/gpio_ip__min_ss_100C_1v60.lib",
+    "sha256": "f983327a43747ee725df07ea68253e12b545c96de608bc8638f8811573e9bb95",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/min_tt_025C_1v80/gpio_ip__min_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/min_tt_025C_1v80/gpio_ip__min_tt_025C_1v80.lib",
+    "sha256": "d2e71acbf6a5e99a431a3fb70e62e8c961791220d313934cd2edad936632c951",
+    "bytes": 117544,
+    "stored_bytes": 117544
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/nom_ff_n40C_1v95/gpio_ip__nom_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/nom_ff_n40C_1v95/gpio_ip__nom_ff_n40C_1v95.lib",
+    "sha256": "a4397e0820ebee8a1b68b21a15a56acf04936f3fdfce91ae8f1da0c9685a7464",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/nom_ss_100C_1v60/gpio_ip__nom_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/nom_ss_100C_1v60/gpio_ip__nom_ss_100C_1v60.lib",
+    "sha256": "fc02781e2a959360d9fb9c2979c490c7a285f3e68f99a602338502073b0fc9e7",
+    "bytes": 117545,
+    "stored_bytes": 117545
+  },
+  {
+    "path": "physical/macros/gpio_ip/lib/nom_tt_025C_1v80/gpio_ip__nom_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/gpio_ip/lib/nom_tt_025C_1v80/gpio_ip__nom_tt_025C_1v80.lib",
+    "sha256": "a7e589c39d03fe3bb86df548603608e2c7f499a3301e4291e0c52097aa00123b",
+    "bytes": 117544,
+    "stored_bytes": 117544
+  },
+  {
+    "path": "physical/macros/gpio_ip/nl/gpio_ip.nl.v",
+    "unpacked_path": "physical/macros/gpio_ip/nl/gpio_ip.nl.v",
+    "sha256": "3f9aec2e04189e2018becf7b36f19e015bc8e9c1c0cf462ac568a59663303b4f",
+    "bytes": 111828,
+    "stored_bytes": 111828
+  },
+  {
+    "path": "physical/macros/gpio_ip/pnl/gpio_ip.pnl.v",
+    "unpacked_path": "physical/macros/gpio_ip/pnl/gpio_ip.pnl.v",
+    "sha256": "58b6e88a54749760a2616e3320df1a8f5ad8373886754ddf64d16df6e1fae90e",
+    "bytes": 209552,
+    "stored_bytes": 209552
+  },
+  {
+    "path": "physical/macros/gpio_ip/spef/max/gpio_ip.max.spef",
+    "unpacked_path": "physical/macros/gpio_ip/spef/max/gpio_ip.max.spef",
+    "sha256": "0816c9b13b85711c4f4c827d89dde0c0bac69ace224e77cc350cb5ef7091cb50",
+    "bytes": 719800,
+    "stored_bytes": 719800
+  },
+  {
+    "path": "physical/macros/gpio_ip/spef/min/gpio_ip.min.spef",
+    "unpacked_path": "physical/macros/gpio_ip/spef/min/gpio_ip.min.spef",
+    "sha256": "4e10737fdd5cc326f5fdbb0f82b259a627c8c659a2f7d93efafcdd2739e615e6",
+    "bytes": 660513,
+    "stored_bytes": 660513
+  },
+  {
+    "path": "physical/macros/gpio_ip/spef/nom/gpio_ip.nom.spef",
+    "unpacked_path": "physical/macros/gpio_ip/spef/nom/gpio_ip.nom.spef",
+    "sha256": "9fd9fb4fc5439e245a788c3926fc73bdea38fb0b31d40ae499b0c2c941771020",
+    "bytes": 671201,
+    "stored_bytes": 671201
+  },
+  {
+    "path": "physical/macros/gpio_ip/vh/gpio_ip.vh",
+    "unpacked_path": "physical/macros/gpio_ip/vh/gpio_ip.vh",
+    "sha256": "1e543c5a9afa252914fa60e6c5491c3245e61e92fab5ba08d6740f0fee450c0e",
+    "bytes": 342,
+    "stored_bytes": 342
+  },
+  {
+    "path": "physical/macros/picorv32/gds/picorv32.gds.gz",
+    "unpacked_path": "physical/macros/picorv32/gds/picorv32.gds",
+    "sha256": "d2e2d63d557c1881af55af985a4ef95aa3d1bc3267b59fe18da525ba79978e4a",
+    "bytes": 46745760,
+    "stored_bytes": 9150990,
+    "parts": [
+      "physical/macros/picorv32/gds/picorv32.gds.gz.part001",
+      "physical/macros/picorv32/gds/picorv32.gds.gz.part002",
+      "physical/macros/picorv32/gds/picorv32.gds.gz.part003"
+    ]
+  },
+  {
+    "path": "physical/macros/picorv32/lef/picorv32.lef",
+    "unpacked_path": "physical/macros/picorv32/lef/picorv32.lef",
+    "sha256": "04a27943c0a4f0f86b68789a835887befc2b0e7b0185a4dfa6fa027917e9223e",
+    "bytes": 114736,
+    "stored_bytes": 114736
+  },
+  {
+    "path": "physical/macros/picorv32/lib/max_ff_n40C_1v95/picorv32__max_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/max_ff_n40C_1v95/picorv32__max_ff_n40C_1v95.lib",
+    "sha256": "44059e8fe7f310f671a84aff175fa3ffea18e162c92b0bff132d2ac46bb1f6ea",
+    "bytes": 276599,
+    "stored_bytes": 276599
+  },
+  {
+    "path": "physical/macros/picorv32/lib/max_ss_100C_1v60/picorv32__max_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/max_ss_100C_1v60/picorv32__max_ss_100C_1v60.lib",
+    "sha256": "e652aa196190bb015ae9d6880235399065a638f3f392e19be2cbdb4998a2a367",
+    "bytes": 276883,
+    "stored_bytes": 276883
+  },
+  {
+    "path": "physical/macros/picorv32/lib/max_tt_025C_1v80/picorv32__max_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/max_tt_025C_1v80/picorv32__max_tt_025C_1v80.lib",
+    "sha256": "a0d799b3edfc063d25a0c0a7267bedc2f31c027fcb913da3e6e65dfa8171d391",
+    "bytes": 276598,
+    "stored_bytes": 276598
+  },
+  {
+    "path": "physical/macros/picorv32/lib/min_ff_n40C_1v95/picorv32__min_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/min_ff_n40C_1v95/picorv32__min_ff_n40C_1v95.lib",
+    "sha256": "074a00be29b4bf22ef64c6588fe362211f6140136940d64ed568741b33babc2a",
+    "bytes": 276599,
+    "stored_bytes": 276599
+  },
+  {
+    "path": "physical/macros/picorv32/lib/min_ss_100C_1v60/picorv32__min_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/min_ss_100C_1v60/picorv32__min_ss_100C_1v60.lib",
+    "sha256": "7e8c23126efa9db6e5d0b3109c372173eb695f4f9d0d41368e28555f57a56c81",
+    "bytes": 276805,
+    "stored_bytes": 276805
+  },
+  {
+    "path": "physical/macros/picorv32/lib/min_tt_025C_1v80/picorv32__min_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/min_tt_025C_1v80/picorv32__min_tt_025C_1v80.lib",
+    "sha256": "ca91de2251bb77ace95773ffda020a9058f0875f8eb23c86894d5aba60c19299",
+    "bytes": 276598,
+    "stored_bytes": 276598
+  },
+  {
+    "path": "physical/macros/picorv32/lib/nom_ff_n40C_1v95/picorv32__nom_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/nom_ff_n40C_1v95/picorv32__nom_ff_n40C_1v95.lib",
+    "sha256": "267c026b0178c651b12d24772422926cbb2c55cc990d560c754417d9ffce3eaa",
+    "bytes": 276599,
+    "stored_bytes": 276599
+  },
+  {
+    "path": "physical/macros/picorv32/lib/nom_ss_100C_1v60/picorv32__nom_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/nom_ss_100C_1v60/picorv32__nom_ss_100C_1v60.lib",
+    "sha256": "45219ac391c127df65287c6f56ca73daca52769a16cdd45fc73d15675c409848",
+    "bytes": 276866,
+    "stored_bytes": 276866
+  },
+  {
+    "path": "physical/macros/picorv32/lib/nom_tt_025C_1v80/picorv32__nom_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32/lib/nom_tt_025C_1v80/picorv32__nom_tt_025C_1v80.lib",
+    "sha256": "9bc6e5c115d463238e7b4d95df559bfad040aa54b9177c6bc64b88c1704fccd0",
+    "bytes": 276598,
+    "stored_bytes": 276598
+  },
+  {
+    "path": "physical/macros/picorv32/nl/picorv32.nl.v.gz",
+    "unpacked_path": "physical/macros/picorv32/nl/picorv32.nl.v",
+    "sha256": "589ceff5d8691027db024aa4d1b75600126665256f3c6645b903d89f35c3f2d1",
+    "bytes": 4030623,
+    "stored_bytes": 409436
+  },
+  {
+    "path": "physical/macros/picorv32/pnl/picorv32.pnl.v.gz",
+    "unpacked_path": "physical/macros/picorv32/pnl/picorv32.pnl.v",
+    "sha256": "6498b90db68a5521fe57473b34c20b3841b799691145dc04f3a03cc2b6e22a89",
+    "bytes": 7677841,
+    "stored_bytes": 435589
+  },
+  {
+    "path": "physical/macros/picorv32/spef/max/picorv32.max.spef.gz",
+    "unpacked_path": "physical/macros/picorv32/spef/max/picorv32.max.spef",
+    "sha256": "3d7324e031c0aa3b9ff99fe5525a91c33efdd29bcb70be6f2a5b0dede6557ba0",
+    "bytes": 23263302,
+    "stored_bytes": 6794107,
+    "parts": [
+      "physical/macros/picorv32/spef/max/picorv32.max.spef.gz.part001",
+      "physical/macros/picorv32/spef/max/picorv32.max.spef.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/macros/picorv32/spef/min/picorv32.min.spef.gz",
+    "unpacked_path": "physical/macros/picorv32/spef/min/picorv32.min.spef",
+    "sha256": "ffc9ff381820ae3aa0e42c2b40b89a09d79d59304db8cc4604814372cdb6bb39",
+    "bytes": 21480814,
+    "stored_bytes": 6149210,
+    "parts": [
+      "physical/macros/picorv32/spef/min/picorv32.min.spef.gz.part001",
+      "physical/macros/picorv32/spef/min/picorv32.min.spef.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/macros/picorv32/spef/nom/picorv32.nom.spef.gz",
+    "unpacked_path": "physical/macros/picorv32/spef/nom/picorv32.nom.spef",
+    "sha256": "c6c17cf8d7a3ee4818acceca2322b20ffa50be30853a4fe448f9006245e6f4df",
+    "bytes": 21911542,
+    "stored_bytes": 6304418,
+    "parts": [
+      "physical/macros/picorv32/spef/nom/picorv32.nom.spef.gz.part001",
+      "physical/macros/picorv32/spef/nom/picorv32.nom.spef.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/macros/picorv32/vh/picorv32.vh",
+    "unpacked_path": "physical/macros/picorv32/vh/picorv32.vh",
+    "sha256": "d9c409065d3b5aaa2da8b0dc6afd68a89f521b90fe9066ef58057fbd917e02b2",
+    "bytes": 714,
+    "stored_bytes": 714
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/gds/picorv32_muldiv.gds.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/gds/picorv32_muldiv.gds",
+    "sha256": "fd7ed597d063a5ab6c03062d3704f2ffad1b0c7a0ed24ff02e7455dbd30ef804",
+    "bytes": 30014776,
+    "stored_bytes": 5813740,
+    "parts": [
+      "physical/macros/picorv32_muldiv/gds/picorv32_muldiv.gds.gz.part001",
+      "physical/macros/picorv32_muldiv/gds/picorv32_muldiv.gds.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lef/picorv32_muldiv.lef",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lef/picorv32_muldiv.lef",
+    "sha256": "ad3e3215ea6cfb2c83ebfb5352bd845f13dd93012a6175198cffaf95fb272dad",
+    "bytes": 41871,
+    "stored_bytes": 41871
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/max_ff_n40C_1v95/picorv32_muldiv__max_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/max_ff_n40C_1v95/picorv32_muldiv__max_ff_n40C_1v95.lib",
+    "sha256": "7049574940d1cb1fd3382246c42489e85026c88583965b4ee4ace802f98d97b4",
+    "bytes": 79328,
+    "stored_bytes": 79328
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/max_ss_100C_1v60/picorv32_muldiv__max_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/max_ss_100C_1v60/picorv32_muldiv__max_ss_100C_1v60.lib",
+    "sha256": "94e767b09ebbf94dea9c590277903804b903498c7d17e4199106dc36d5b21256",
+    "bytes": 79361,
+    "stored_bytes": 79361
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/max_tt_025C_1v80/picorv32_muldiv__max_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/max_tt_025C_1v80/picorv32_muldiv__max_tt_025C_1v80.lib",
+    "sha256": "e97b0ea2312853c0a60f3ac59dacc6fc62027f899c69043cdab85b2b0d52d1cf",
+    "bytes": 79327,
+    "stored_bytes": 79327
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/min_ff_n40C_1v95/picorv32_muldiv__min_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/min_ff_n40C_1v95/picorv32_muldiv__min_ff_n40C_1v95.lib",
+    "sha256": "b2f0a7304a5ec30d6197d9ba896556d9cd89bb6327acfb056acd207cf9f99db6",
+    "bytes": 79328,
+    "stored_bytes": 79328
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/min_ss_100C_1v60/picorv32_muldiv__min_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/min_ss_100C_1v60/picorv32_muldiv__min_ss_100C_1v60.lib",
+    "sha256": "335a6d648b7d6b6986debca8373b8a4e14bd05d990a18d368c6d3759f34d9723",
+    "bytes": 79358,
+    "stored_bytes": 79358
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/min_tt_025C_1v80/picorv32_muldiv__min_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/min_tt_025C_1v80/picorv32_muldiv__min_tt_025C_1v80.lib",
+    "sha256": "708a29918995240c0fa924334afc257555d74dbb77e846ecaf15b2a616650f14",
+    "bytes": 79327,
+    "stored_bytes": 79327
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/nom_ff_n40C_1v95/picorv32_muldiv__nom_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/nom_ff_n40C_1v95/picorv32_muldiv__nom_ff_n40C_1v95.lib",
+    "sha256": "0d2c6070c099d337c4b83bdddbf45bf1cc000a307b74c3bf122fd100d8ab028a",
+    "bytes": 79328,
+    "stored_bytes": 79328
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/nom_ss_100C_1v60/picorv32_muldiv__nom_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/nom_ss_100C_1v60/picorv32_muldiv__nom_ss_100C_1v60.lib",
+    "sha256": "93da0630486c335b55ac94a8c1a0d8cb97ff4994c1e31f3ef6f2d8f8aba9a4fb",
+    "bytes": 79361,
+    "stored_bytes": 79361
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/lib/nom_tt_025C_1v80/picorv32_muldiv__nom_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/picorv32_muldiv/lib/nom_tt_025C_1v80/picorv32_muldiv__nom_tt_025C_1v80.lib",
+    "sha256": "1d77766756e391e269476f5aa0232eb3a9c7d32894ff3427d80c31caca72b625",
+    "bytes": 79327,
+    "stored_bytes": 79327
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/nl/picorv32_muldiv.nl.v.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/nl/picorv32_muldiv.nl.v",
+    "sha256": "f735388c83421472dc40c11b161985f1d3d6120d2a14af9eb99250a1b96a56af",
+    "bytes": 2746755,
+    "stored_bytes": 306546
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/pnl/picorv32_muldiv.pnl.v.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/pnl/picorv32_muldiv.pnl.v",
+    "sha256": "51b896a27817292f72895b06b9ce560c7870e9409c66e45902fee12f786ad998",
+    "bytes": 5189677,
+    "stored_bytes": 326106
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/spef/max/picorv32_muldiv.max.spef.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/spef/max/picorv32_muldiv.max.spef",
+    "sha256": "d98267b26ba494b3d781099a221864a1f437b6f39181d68d64e737eab8e21bfa",
+    "bytes": 14024800,
+    "stored_bytes": 3664250
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/spef/min/picorv32_muldiv.min.spef.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/spef/min/picorv32_muldiv.min.spef",
+    "sha256": "ded8889e79738d8550531fc70c66240d2a22e01b12070dd2faaa1df14dcf69e9",
+    "bytes": 13162803,
+    "stored_bytes": 3367366
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/spef/nom/picorv32_muldiv.nom.spef.gz",
+    "unpacked_path": "physical/macros/picorv32_muldiv/spef/nom/picorv32_muldiv.nom.spef",
+    "sha256": "b9e944a6d77ead046ca8a4f01ff5c02de305542aa679bdaeb20c5db7e8ce2fbf",
+    "bytes": 13350356,
+    "stored_bytes": 3429022
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/vh/picorv32_muldiv.vh",
+    "unpacked_path": "physical/macros/picorv32_muldiv/vh/picorv32_muldiv.vh",
+    "sha256": "77a18cf95af1d95e8949caf1c63b9379908bfc618839d2adc661d13d1a9e608f",
+    "bytes": 328,
+    "stored_bytes": 328
+  },
+  {
+    "path": "physical/macros/sram_4k_final/sram_4k_final.vh",
+    "unpacked_path": "physical/macros/sram_4k_final/sram_4k_final.vh",
+    "sha256": "67557ab8b28acc97f20d479f5b7a7146e3ed478b98645b59d1e22d5acf3cfd6a",
+    "bytes": 207,
+    "stored_bytes": 207
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final.gds.gz",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final.gds",
+    "sha256": "35a18e33165ac90c1ee6fa4d95d7458fdf756881f4e8ae325883dafc9631f2c8",
+    "bytes": 30715336,
+    "stored_bytes": 4273239,
+    "parts": [
+      "physical/macros/sram_4k_final_repaired/sram_4k_final.gds.gz.part001",
+      "physical/macros/sram_4k_final_repaired/sram_4k_final.gds.gz.part002"
+    ]
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final.lef",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final.lef",
+    "sha256": "75d6eefd42c8e9cda09c0ade08d6c032131673020fba914849011cd6f6422829",
+    "bytes": 17433,
+    "stored_bytes": 17433
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final.lvs.sp.gz",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final.lvs.sp",
+    "sha256": "eee2eb06ceee31ef41293ce39360f38e540545a3a5555347246481e10bf69e64",
+    "bytes": 6265983,
+    "stored_bytes": 266290
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final_FF_1p95V_-40C.lib",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final_FF_1p95V_-40C.lib",
+    "sha256": "da2efcf3cac6f41edf5eee1b695ec6da2ab98c2123865d6028e83a4900b0a676",
+    "bytes": 11378,
+    "stored_bytes": 11378
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final_SS_1p6V_100C.lib",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final_SS_1p6V_100C.lib",
+    "sha256": "2b113e4ec3ce859d9b340f0870d1f7cb3c2edb964aca16dbcf0038dc1df1b509",
+    "bytes": 11420,
+    "stored_bytes": 11420
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/sram_4k_final_TT_1p8V_25C.lib",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/sram_4k_final_TT_1p8V_25C.lib",
+    "sha256": "7de71aaf933047d75ad20b059f822426bf758222207eb8e27e633c23356a7767",
+    "bytes": 11411,
+    "stored_bytes": 11411
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/gds/uart_ip.gds.gz",
+    "unpacked_path": "physical/macros/uart_ip_30ns/gds/uart_ip.gds",
+    "sha256": "a7debb63127f5bc0185125268d069dd983f9443152eb18427f54672c8e4b49f6",
+    "bytes": 1387856,
+    "stored_bytes": 259163
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lef/uart_ip.lef",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lef/uart_ip.lef",
+    "sha256": "e767d1677d9e8f8d7ee38ddca3b27c917ddd06fbae6b833626d3bf3d3fce65ee",
+    "bytes": 33194,
+    "stored_bytes": 33194
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/max_ff_n40C_1v95/uart_ip__max_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/max_ff_n40C_1v95/uart_ip__max_ff_n40C_1v95.lib",
+    "sha256": "b30010adc150dc10a0cc8d437acb9e351a256441f096c72833a15e68b79c1b4f",
+    "bytes": 56268,
+    "stored_bytes": 56268
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/max_ss_100C_1v60/uart_ip__max_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/max_ss_100C_1v60/uart_ip__max_ss_100C_1v60.lib",
+    "sha256": "ef19dadffdf4e7a6c3b3384afddfba34f8c11b2fdfd6cde0e2870ab90ddb04a4",
+    "bytes": 56274,
+    "stored_bytes": 56274
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/max_tt_025C_1v80/uart_ip__max_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/max_tt_025C_1v80/uart_ip__max_tt_025C_1v80.lib",
+    "sha256": "fe8272cd1d68d10fbd6963f648d58e8da086e12edf9ab915aa02eeb4c604fc64",
+    "bytes": 56267,
+    "stored_bytes": 56267
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/min_ff_n40C_1v95/uart_ip__min_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/min_ff_n40C_1v95/uart_ip__min_ff_n40C_1v95.lib",
+    "sha256": "ac8345ed3f6f3638c4af7a7708dbce8a7b95802179a18223cc5b0acfda309613",
+    "bytes": 56268,
+    "stored_bytes": 56268
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/min_ss_100C_1v60/uart_ip__min_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/min_ss_100C_1v60/uart_ip__min_ss_100C_1v60.lib",
+    "sha256": "447a0bce20886ce1c22356dd274542c068483da967324d61b6fcf8b7d853728f",
+    "bytes": 56274,
+    "stored_bytes": 56274
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/min_tt_025C_1v80/uart_ip__min_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/min_tt_025C_1v80/uart_ip__min_tt_025C_1v80.lib",
+    "sha256": "36ab0e258b88a6fae7bcbbdc14babc0ce16e8041a52b2b54b1aa4c1cba65fb96",
+    "bytes": 56267,
+    "stored_bytes": 56267
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/nom_ff_n40C_1v95/uart_ip__nom_ff_n40C_1v95.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/nom_ff_n40C_1v95/uart_ip__nom_ff_n40C_1v95.lib",
+    "sha256": "185f94e760c05b8fa7d342fcb5c445b0b02a3e2dddfb85e0cfffa2119f7a1890",
+    "bytes": 56268,
+    "stored_bytes": 56268
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/nom_ss_100C_1v60/uart_ip__nom_ss_100C_1v60.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/nom_ss_100C_1v60/uart_ip__nom_ss_100C_1v60.lib",
+    "sha256": "ecf456c11882adc78cf01976a40fe2c98cb2c68ffc661e55b158d9964eac6dec",
+    "bytes": 56274,
+    "stored_bytes": 56274
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/lib/nom_tt_025C_1v80/uart_ip__nom_tt_025C_1v80.lib",
+    "unpacked_path": "physical/macros/uart_ip_30ns/lib/nom_tt_025C_1v80/uart_ip__nom_tt_025C_1v80.lib",
+    "sha256": "dc92e4bc0ff63fac61225d46bc9609245556e2d962fc1c17696246ec1a3862af",
+    "bytes": 56267,
+    "stored_bytes": 56267
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/nl/uart_ip.nl.v",
+    "unpacked_path": "physical/macros/uart_ip_30ns/nl/uart_ip.nl.v",
+    "sha256": "18a52d5634a17127a33319cf57145503f5705c6a0f3931e8e8b97a0225aa1435",
+    "bytes": 85495,
+    "stored_bytes": 85495
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/pnl/uart_ip.pnl.v",
+    "unpacked_path": "physical/macros/uart_ip_30ns/pnl/uart_ip.pnl.v",
+    "sha256": "909fc8e884152ac423888188a24896e07ac7abb577550a6d665bf6721f4ba977",
+    "bytes": 158177,
+    "stored_bytes": 158177
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/spef/max/uart_ip.max.spef",
+    "unpacked_path": "physical/macros/uart_ip_30ns/spef/max/uart_ip.max.spef",
+    "sha256": "3e038f83076419e1b1837c56719342dd1d38f40cf75f17be87ea0aec3e4f654e",
+    "bytes": 475697,
+    "stored_bytes": 475697
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/spef/min/uart_ip.min.spef",
+    "unpacked_path": "physical/macros/uart_ip_30ns/spef/min/uart_ip.min.spef",
+    "sha256": "d1c192fe3d0a859af7e9a51de2bc5379fa739ba9005b523a68f4af65bec673be",
+    "bytes": 441861,
+    "stored_bytes": 441861
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/spef/nom/uart_ip.nom.spef",
+    "unpacked_path": "physical/macros/uart_ip_30ns/spef/nom/uart_ip.nom.spef",
+    "sha256": "0ecaf677245eac1de04eaa949baa34c42190b491e94c825fcf1620213d69dc7f",
+    "bytes": 446991,
+    "stored_bytes": 446991
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/vh/uart_ip.vh",
+    "unpacked_path": "physical/macros/uart_ip_30ns/vh/uart_ip.vh",
+    "sha256": "2a4728d612ea90b206a39f637ce9df874666b1a2ec724c8676a1ad32d77144fd",
+    "bytes": 326,
+    "stored_bytes": 326
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/pin_order.cfg",
+    "unpacked_path": "physical/macros/picorv32_muldiv/pin_order.cfg",
+    "sha256": "a6a94b5d0dad0126432f920eeae80e34f7dd2e7fa0c9da94daf7e13c9f009410",
+    "bytes": 98,
+    "stored_bytes": 98
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/constraints.sdc",
+    "unpacked_path": "physical/macros/picorv32_muldiv/constraints.sdc",
+    "sha256": "8fd56bbb8e0ec76db34edf0a07ae673f6846bdf9aac040e3561e9b1bc9b12ed6",
+    "bytes": 3183,
+    "stored_bytes": 3183
+  },
+  {
+    "path": "physical/macros/picorv32_muldiv/constraints_signoff.sdc",
+    "unpacked_path": "physical/macros/picorv32_muldiv/constraints_signoff.sdc",
+    "sha256": "2e5fd5be752097397d6376700eb37f7d85d404ff038fbc7b134fc38a9c7a6e25",
+    "bytes": 3079,
+    "stored_bytes": 3079
+  },
+  {
+    "path": "physical/macros/gpio_ip/pin_order.cfg",
+    "unpacked_path": "physical/macros/gpio_ip/pin_order.cfg",
+    "sha256": "a711b4677c432af89ffca4ffd16942e62af4817d083030e0e5d9c5601e0bfb7f",
+    "bytes": 104,
+    "stored_bytes": 104
+  },
+  {
+    "path": "physical/macros/gpio_ip/constraints.sdc",
+    "unpacked_path": "physical/macros/gpio_ip/constraints.sdc",
+    "sha256": "8fd56bbb8e0ec76db34edf0a07ae673f6846bdf9aac040e3561e9b1bc9b12ed6",
+    "bytes": 3183,
+    "stored_bytes": 3183
+  },
+  {
+    "path": "physical/macros/gpio_ip/constraints_signoff.sdc",
+    "unpacked_path": "physical/macros/gpio_ip/constraints_signoff.sdc",
+    "sha256": "2e5fd5be752097397d6376700eb37f7d85d404ff038fbc7b134fc38a9c7a6e25",
+    "bytes": 3079,
+    "stored_bytes": 3079
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/pin_order.cfg",
+    "unpacked_path": "physical/macros/uart_ip_30ns/pin_order.cfg",
+    "sha256": "eb54ae6efe34e323352ee62d852b9be8e02e803118be021cd5433858a918731e",
+    "bytes": 92,
+    "stored_bytes": 92
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/constraints.sdc",
+    "unpacked_path": "physical/macros/uart_ip_30ns/constraints.sdc",
+    "sha256": "8fd56bbb8e0ec76db34edf0a07ae673f6846bdf9aac040e3561e9b1bc9b12ed6",
+    "bytes": 3183,
+    "stored_bytes": 3183
+  },
+  {
+    "path": "physical/macros/uart_ip_30ns/constraints_signoff.sdc",
+    "unpacked_path": "physical/macros/uart_ip_30ns/constraints_signoff.sdc",
+    "sha256": "2e5fd5be752097397d6376700eb37f7d85d404ff038fbc7b134fc38a9c7a6e25",
+    "bytes": 3079,
+    "stored_bytes": 3079
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/QUALIFICATION.md",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/QUALIFICATION.md",
+    "sha256": "2f59b9cbf13b75de6ce78d265d739fdb5247d1bdc2948ebf45b7d3e4e17dcfec",
+    "bytes": 2693,
+    "stored_bytes": 2693
+  },
+  {
+    "path": "physical/macros/sram_4k_final_repaired/release_manifest.json",
+    "unpacked_path": "physical/macros/sram_4k_final_repaired/release_manifest.json",
+    "sha256": "ed4d8fbb665e3cd2b24238017b627a8ae8ae9d0f70b742fa79a2f892b2f69e12",
+    "bytes": 1680,
+    "stored_bytes": 1680
+  },
+  {
+    "path": "physical/src/device_select.v",
+    "unpacked_path": "physical/src/device_select.v",
+    "sha256": "b01d25c64c7729c2be152cc6c841dd28d97c4c35fb8bff4ca205a561e34dae2d",
+    "bytes": 248,
+    "stored_bytes": 248
+  },
+  {
+    "path": "physical/src/pico_soc.v",
+    "unpacked_path": "physical/src/pico_soc.v",
+    "sha256": "d07733e0f62e8d75985fd08d6f10cfc62b42ecc1af9e0336d209843ae8c7ee5e",
+    "bytes": 5397,
+    "stored_bytes": 5397
+  },
+  {
+    "path": "physical/constraints.sdc",
+    "unpacked_path": "physical/constraints.sdc",
+    "sha256": "8fd56bbb8e0ec76db34edf0a07ae673f6846bdf9aac040e3561e9b1bc9b12ed6",
+    "bytes": 3183,
+    "stored_bytes": 3183
+  },
+  {
+    "path": "physical/constraints_signoff.sdc",
+    "unpacked_path": "physical/constraints_signoff.sdc",
+    "sha256": "2e5fd5be752097397d6376700eb37f7d85d404ff038fbc7b134fc38a9c7a6e25",
+    "bytes": 3079,
+    "stored_bytes": 3079
+  },
+  {
+    "path": "physical/pin_order.cfg",
+    "unpacked_path": "physical/pin_order.cfg",
+    "sha256": "b9248d664f662742c8488174c317c5e673911a2139e05a6e4909dcadfd41c9d6",
+    "bytes": 52,
+    "stored_bytes": 52
+  },
+  {
+    "path": "simulation/rtl/src/top.v",
+    "unpacked_path": "simulation/rtl/src/top.v",
+    "sha256": "b81a20caefeb1f05a50b049a14b1993651938e3184905ee5f763e5c4fedcbc03",
+    "bytes": 5296,
+    "stored_bytes": 5296
+  },
+  {
+    "path": "simulation/rtl/src/device_select.v",
+    "unpacked_path": "simulation/rtl/src/device_select.v",
+    "sha256": "b01d25c64c7729c2be152cc6c841dd28d97c4c35fb8bff4ca205a561e34dae2d",
+    "bytes": 248,
+    "stored_bytes": 248
+  },
+  {
+    "path": "simulation/rtl/src/picorv32_muldiv.v",
+    "unpacked_path": "simulation/rtl/src/picorv32_muldiv.v",
+    "sha256": "1f8fa2b69ed8b46f6419fb6ae311c6422461debdb49d0f2204fe024d11466d94",
+    "bytes": 9727,
+    "stored_bytes": 9727
+  },
+  {
+    "path": "simulation/rtl/src/regs_uart.v",
+    "unpacked_path": "simulation/rtl/src/regs_uart.v",
+    "sha256": "98fd7395b8263d3c89cb4d23f0dc6784092118a8eca8e9c755bd8d768f7bb19a",
+    "bytes": 5907,
+    "stored_bytes": 5907
+  },
+  {
+    "path": "simulation/rtl/src/uart_tx.v",
+    "unpacked_path": "simulation/rtl/src/uart_tx.v",
+    "sha256": "dc51506efd35044153c5e8a0bec3d47bc74c22f803ef6a1427bb4d9b77b76f22",
+    "bytes": 1550,
+    "stored_bytes": 1550
+  },
+  {
+    "path": "simulation/rtl/src/gpio_ip.v",
+    "unpacked_path": "simulation/rtl/src/gpio_ip.v",
+    "sha256": "df0cb4858abcede1fda266bdbf93235bcbbd6e9d8d663ac8e117de2de99a6ddd",
+    "bytes": 3197,
+    "stored_bytes": 3197
+  },
+  {
+    "path": "simulation/rtl/src/sram_uc4k.v",
+    "unpacked_path": "simulation/rtl/src/sram_uc4k.v",
+    "sha256": "22154f7a99cf37870d79885981e8bdab4c89b534494e8851173ece0c277081f9",
+    "bytes": 2722,
+    "stored_bytes": 2722
+  },
+  {
+    "path": "simulation/rtl/src/uart_ip.v",
+    "unpacked_path": "simulation/rtl/src/uart_ip.v",
+    "sha256": "2af5af636c616c39f6dd4fff59b7a1f610519aa0c49b94c846e46bf692e775fc",
+    "bytes": 1588,
+    "stored_bytes": 1588
+  },
+  {
+    "path": "simulation/rtl/src/picorv32.v",
+    "unpacked_path": "simulation/rtl/src/picorv32.v",
+    "sha256": "8d6c90c1aed9a100a7a520da45aaf1e2326f6d14fccc0c8c864481adb5a77f7c",
+    "bytes": 86321,
+    "stored_bytes": 86321
+  },
+  {
+    "path": "simulation/rtl/firmware/uart_regs.h",
+    "unpacked_path": "simulation/rtl/firmware/uart_regs.h",
+    "sha256": "a7ba0ffeda134c6c5079424da8e1ce8128686795a2342e01bf30c55fb2837698",
+    "bytes": 284,
+    "stored_bytes": 284
+  },
+  {
+    "path": "simulation/rtl/firmware/gpio_generated.h",
+    "unpacked_path": "simulation/rtl/firmware/gpio_generated.h",
+    "sha256": "d4231f6627f8bc67a4ab711ab43bd3fd6ec707cebae862df833213dc336c736e",
+    "bytes": 1022,
+    "stored_bytes": 1022
+  },
+  {
+    "path": "simulation/rtl/firmware/vectors.h",
+    "unpacked_path": "simulation/rtl/firmware/vectors.h",
+    "sha256": "2b2baaa482be6ccb853ebb69e31b10aa9aa1b2f3c21c00be644b49a61b5b409b",
+    "bytes": 4107,
+    "stored_bytes": 4107
+  },
+  {
+    "path": "simulation/rtl/firmware/sections.lds",
+    "unpacked_path": "simulation/rtl/firmware/sections.lds",
+    "sha256": "b67f245b79ef81c6613c166495652f29ef8e4777b8874b3a6712520cc3c4aeb4",
+    "bytes": 392,
+    "stored_bytes": 392
+  },
+  {
+    "path": "simulation/rtl/firmware/start.S",
+    "unpacked_path": "simulation/rtl/firmware/start.S",
+    "sha256": "83b8812b363739a8cafa68ca1829833fa19a83e2bce12d7587d8904bdf8135fc",
+    "bytes": 209,
+    "stored_bytes": 209
+  },
+  {
+    "path": "simulation/rtl/firmware/makehex.py",
+    "unpacked_path": "simulation/rtl/firmware/makehex.py",
+    "sha256": "7aa75b7a1955b312b3a5f6094ba0b6dc569c828a5380913ab07922e60cbcb9ea",
+    "bytes": 288,
+    "stored_bytes": 288
+  },
+  {
+    "path": "simulation/rtl/firmware/gpio_regs.h",
+    "unpacked_path": "simulation/rtl/firmware/gpio_regs.h",
+    "sha256": "a55550ea7a1c1cc4162623575e8070440c3022c59f8bdda8afd8f8c18c44cbd8",
+    "bytes": 149,
+    "stored_bytes": 149
+  },
+  {
+    "path": "simulation/rtl/firmware/main.c",
+    "unpacked_path": "simulation/rtl/firmware/main.c",
+    "sha256": "7485e7800bf2649f2c40d969f60534f116b5b2ec01cf8a42ae7222088e624649",
+    "bytes": 2512,
+    "stored_bytes": 2512
+  },
+  {
+    "path": "simulation/rtl/firmware/uart_generated.h",
+    "unpacked_path": "simulation/rtl/firmware/uart_generated.h",
+    "sha256": "f1ff63c96501ad16dc740ab17fd817c00bed1372a9004d558bd6cc5956a299cd",
+    "bytes": 2511,
+    "stored_bytes": 2511
+  },
+  {
+    "path": "simulation/rtl/tests/vectors.hex",
+    "unpacked_path": "simulation/rtl/tests/vectors.hex",
+    "sha256": "d6ae58fa9a580714486c56a1daa60eeaf6b9d12c89bd66beafe1c2ca839301ff",
+    "bytes": 83200,
+    "stored_bytes": 83200
+  },
+  {
+    "path": "simulation/rtl/tests/generate_vectors.py",
+    "unpacked_path": "simulation/rtl/tests/generate_vectors.py",
+    "sha256": "51641ea1f82e0ec2f5bfd7b8b08065c697fc12dc4cfc1ef7eea06093ea6d2950",
+    "bytes": 1829,
+    "stored_bytes": 1829
+  },
+  {
+    "path": "simulation/rtl/tests/tb_muldiv.v",
+    "unpacked_path": "simulation/rtl/tests/tb_muldiv.v",
+    "sha256": "9a4ca4b3e6df09bbdf65f3bb98d78633ce90e5ea45ab2bd4522e393ea5e1e444",
+    "bytes": 2797,
+    "stored_bytes": 2797
+  },
+  {
+    "path": "simulation/rtl/regs/gpio/regs.yaml",
+    "unpacked_path": "simulation/rtl/regs/gpio/regs.yaml",
+    "sha256": "413faab7428e77d8899d235a823257058352184879ee47c3871a0188a6efcb0a",
+    "bytes": 211,
+    "stored_bytes": 211
+  },
+  {
+    "path": "simulation/rtl/regs/gpio/csrconfig",
+    "unpacked_path": "simulation/rtl/regs/gpio/csrconfig",
+    "sha256": "3c3f54b7fa6dcf68bb8db8609f5d1823789709023680b7533b84dfb9443324ff",
+    "bytes": 216,
+    "stored_bytes": 216
+  },
+  {
+    "path": "simulation/rtl/regs/uart/regs.yaml",
+    "unpacked_path": "simulation/rtl/regs/uart/regs.yaml",
+    "sha256": "c9e710d535ea2f94729db1cb0c8b32d54b57f2ad478195a937764098b370c466",
+    "bytes": 977,
+    "stored_bytes": 977
+  },
+  {
+    "path": "simulation/rtl/regs/uart/csrconfig",
+    "unpacked_path": "simulation/rtl/regs/uart/csrconfig",
+    "sha256": "eb2678c01162a4c8f50d931469428a0837f1e50d37f1731a84995160cfe8ea5f",
+    "bytes": 232,
+    "stored_bytes": 232
+  },
+  {
+    "path": "simulation/rtl/tb_processor.v",
+    "unpacked_path": "simulation/rtl/tb_processor.v",
+    "sha256": "8630c885cd3563cb2998b5f8838a1c596c3a2880b49cdab7df98ec50ac0e58a4",
+    "bytes": 3662,
+    "stored_bytes": 3662
+  },
+  {
+    "path": "simulation/rtl/files.f",
+    "unpacked_path": "simulation/rtl/files.f",
+    "sha256": "10c76371c49e4eee888f4e10156f62bc80f269a3bd20b336dc8c6901036af8b5",
+    "bytes": 156,
+    "stored_bytes": 156
+  },
+  {
+    "path": "simulation/rtl/Makefile",
+    "unpacked_path": "simulation/rtl/Makefile",
+    "sha256": "4669679d26f2932d418e7f8e93dff1428aed1fcb20ae14dd3f4eb42e2d85ac32",
+    "bytes": 1506,
+    "stored_bytes": 1506
+  },
+  {
+    "path": "simulation/rtl/requirements.txt",
+    "unpacked_path": "simulation/rtl/requirements.txt",
+    "sha256": "e393e3101bec0f01abc7d88c298fc2e6aa8522e8d9fcc0615a7106d9a1bc0ec4",
+    "bytes": 15,
+    "stored_bytes": 15
+  },
+  {
+    "path": "simulation/rtl/prebuilt/firmware.hex",
+    "unpacked_path": "simulation/rtl/prebuilt/firmware.hex",
+    "sha256": "f7b6bc8cdd868f595330547742163ae92715934f648819b099e6e83608c5404d",
+    "bytes": 9216,
+    "stored_bytes": 9216
+  },
+  {
+    "path": "simulation/gate/sram_model.v",
+    "unpacked_path": "simulation/gate/sram_model.v",
+    "sha256": "d9704bad65c249240ea57cbf17912313e0992020e3142036b0c033f2dc67153b",
+    "bytes": 2754,
+    "stored_bytes": 2754
+  },
+  {
+    "path": "simulation/gate/tb_processor.v",
+    "unpacked_path": "simulation/gate/tb_processor.v",
+    "sha256": "1fd0f8f72741260aa6e6173b766843d9fb376e86759277062433925e4dfe2592",
+    "bytes": 3779,
+    "stored_bytes": 3779
+  },
+  {
+    "path": "simulation/traces/soc_gate.vcd.gz",
+    "unpacked_path": "simulation/traces/soc_gate.vcd",
+    "sha256": "c0bbf175e3b2e30c2128626a228c6306d8532f402e84982d1006415b70d47abb",
+    "bytes": 4426479,
+    "stored_bytes": 662564
+  },
+  {
+    "path": "reports/gate_simulation.log",
+    "unpacked_path": "reports/gate_simulation.log",
+    "sha256": "124df3b685c51aaf735a226b540f97a8c29bfafd0fba3cf40a83a3eeb5d96130",
+    "bytes": 13779,
+    "stored_bytes": 13779
+  },
+  {
+    "path": "reports/qualification.json",
+    "unpacked_path": "reports/qualification.json",
+    "sha256": "adfadbc32a4ef455c28740aff2e9f1142498f6fba827e1c7cc79199b4ad1b55b",
+    "bytes": 2327,
+    "stored_bytes": 2327
+  },
+  {
+    "path": "reports/reuse_manifest.json",
+    "unpacked_path": "reports/reuse_manifest.json",
+    "sha256": "7af2b1d997387f9f501f0a52977690dab07c33d2cb17dd5ba361fabaa5263550",
+    "bytes": 1086,
+    "stored_bytes": 1086
+  },
+  {
+    "path": "reports/hierarchical_magic_coverage.json",
+    "unpacked_path": "reports/hierarchical_magic_coverage.json",
+    "sha256": "e187377212332d9f8abc9907d888e209b78ed781e7e55a57b50a67e86ccbba4c",
+    "bytes": 8368,
+    "stored_bytes": 8368
+  },
+  {
+    "path": "reports/nine_corner_timing.csv",
+    "unpacked_path": "reports/nine_corner_timing.csv",
+    "sha256": "538a1d8edf3323d2011a744ab52d27e9ddc6573f6c3653857f9e623e01aad03a",
+    "bytes": 992,
+    "stored_bytes": 992
+  },
+  {
+    "path": "reports/characterization_plot_data.csv",
+    "unpacked_path": "reports/characterization_plot_data.csv",
+    "sha256": "3638b6a051c54a3e6bc6d410cf2a3f8a040c3c8d090e2bd695888730dc37d98b",
+    "bytes": 1342,
+    "stored_bytes": 1342
+  },
+  {
+    "path": "reports/all_reported_metrics.csv",
+    "unpacked_path": "reports/all_reported_metrics.csv",
+    "sha256": "95861a67308e3ce61776aeb872e4abbca70f29dcaeca8693328fcc9c24f8d788",
+    "bytes": 25753,
+    "stored_bytes": 25753
+  },
+  {
+    "path": "reports/clock_ndr_routed.json",
+    "unpacked_path": "reports/clock_ndr_routed.json",
+    "sha256": "9eeb2c68b7440812105b66d2e1d6b4f99f6416f6458045bdfd98d4ad351e44e0",
+    "bytes": 1914,
+    "stored_bytes": 1914
+  }
+]

@@ -1,0 +1,259 @@
+{
+  "scope": "hierarchical parent Magic coverage; raw native results are not rewritten",
+  "raw_magic_flags": 20,
+  "unresolved_parent_flags": 0,
+  "full_magic_gds_signoff_claimed": false,
+  "independent_full_gds_klayout_drc": 0,
+  "qualified_children": {
+    "processor": {
+      "gds_sha256": "d2e2d63d557c1881af55af985a4ef95aa3d1bc3267b59fe18da525ba79978e4a",
+      "qualified_magic_drc": 0,
+      "qualified_klayout_drc": 0,
+      "qualified_lvs": 0
+    },
+    "arithmetic_unit": {
+      "gds_sha256": "fd7ed597d063a5ab6c03062d3704f2ffad1b0c7a0ed24ff02e7455dbd30ef804",
+      "qualified_magic_drc": 0,
+      "qualified_klayout_drc": 0,
+      "qualified_lvs": 0
+    },
+    "gpio_unit": {
+      "gds_sha256": "b8ce7e5b6bbc9cfa0dede4f77daad307e74c76553892b044ed39399da2fe6c96",
+      "qualified_magic_drc": 0,
+      "qualified_klayout_drc": 0,
+      "qualified_lvs": 0
+    },
+    "uart_unit": {
+      "gds_sha256": "a7debb63127f5bc0185125268d069dd983f9443152eb18427f54672c8e4b49f6",
+      "qualified_magic_drc": 0,
+      "qualified_klayout_drc": 0,
+      "qualified_lvs": 0
+    }
+  },
+  "classification": [
+    {
+      "rule": "Metal3 > 3um spacing to unrelated m3 < 0.4um (met3.3d)",
+      "rectangle_um": [
+        1083.065,
+        837.96,
+        1083.155,
+        838.24
+      ],
+      "classification": "abstract-view metal flag not reproduced on actual merged GDS",
+      "actual_gds_check": "../../sram_repair/clip_parent_edge_drc.log"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        82.13,
+        50.795,
+        167.15,
+        135.39
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "uart_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        219.27,
+        51.675,
+        314.56,
+        314.56
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        219.27,
+        314.56,
+        314.56,
+        629.12
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        45.4,
+        783.165,
+        314.56,
+        943.68
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        219.27,
+        629.12,
+        314.56,
+        720.965
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        45.4,
+        943.68,
+        314.56,
+        1258.24
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        45.4,
+        1258.24,
+        314.56,
+        1289.255
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        51.675,
+        629.12,
+        314.56
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        314.56,
+        629.12,
+        629.12
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        783.165,
+        552.24,
+        943.68
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        629.12,
+        629.12,
+        720.965
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        943.68,
+        552.24,
+        1258.24
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        314.56,
+        1258.24,
+        552.24,
+        1289.255
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "arithmetic_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        629.12,
+        51.675,
+        889.41,
+        314.56
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        940.305,
+        50.795,
+        943.68,
+        148.885
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "gpio_unit"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        629.12,
+        314.56,
+        889.41,
+        629.12
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        629.12,
+        629.12,
+        889.41,
+        720.965
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "processor"
+    },
+    {
+      "rule": "All nwells must contain metal-connected N+ taps (nwell.4)",
+      "rectangle_um": [
+        943.68,
+        50.795,
+        1040.965,
+        148.885
+      ],
+      "classification": "tap geometry is absent from hard-macro LEF abstraction; checked by exact qualified child GDS",
+      "owner": "gpio_unit"
+    },
+    {
+      "rule": "Metal3 minimum area < 0.24um^2 (met3.6)",
+      "rectangle_um": [
+        1082.995,
+        836.515,
+        1083.375,
+        836.895
+      ],
+      "classification": "abstract-view metal flag not reproduced on actual merged GDS",
+      "actual_gds_check": "../../sram_repair/clip_parent_edge_drc.log"
+    }
+  ],
+  "actual_gds_clip_sha256": "b74266df857994a60ccb0abc517d7af8aabd4086c632b18f16995ec1a93d8afd",
+  "notes": "Clip-boundary artifacts remain in the raw clip report; no such artifact enters the two original target neighborhoods. Full SRAM native internal LVS remains separately required.",
+  "v4_reuse_basis": "All physical mask geometry, macro pins and routed parent geometry are unchanged; only internal pwell.pin layer122/16 metadata changed. The actual-metal SRAM-edge clip and qualified logic macro hashes remain applicable.",
+  "v4_sram_native_hierarchical_magic_drc": 0
+}

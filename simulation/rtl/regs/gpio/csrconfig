@@ -1,0 +1,13 @@
+[globcfg]
+data_width = 32
+address_width = 32
+register_reset = sync_pos
+
+[v_module]
+path = ../../src/gpio_ip.v
+interface = lb
+generator = Verilog
+
+[c_header]
+path = ../../firmware/gpio_generated.h
+generator = CHeader
