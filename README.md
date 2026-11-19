@@ -6,8 +6,8 @@ A hierarchical RV32IM system-on-chip with five hard macros: a reused PicoRV32 CP
 
 ## Final GDS layout
 
-![GDS displayed in KLayout](<img width="1256" height="745" alt="Screenshot 2026-11-19 at 9 17 32 PM" src="https://github.com/user-attachments/assets/640bd951-c8c4-419c-84f8-72588873744b" />
-)
+<img width="1256" height="745" alt="Screenshot 2026-11-19 at 9 17 32 PM" src="https://github.com/user-attachments/assets/8ba1983c-af08-4adb-afb3-8944efc25818" />
+
 
 This is an unedited screenshot of the final repaired `pico_soc.gds` opened in KLayout, with its original layer colours and visible application controls. Layer visibility can obscure internal detail; it does not alter the layout geometry.
 
