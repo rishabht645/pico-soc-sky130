@@ -69,13 +69,15 @@ OpenRAM 1.2.49 and ngspice 45 characterize the repaired 4 KiB memory at three PV
 
 These are memory-only characterization results, not a SoC maximum-frequency sweep. The final Liberty files, measurement points and qualification notes are included. The CPU-facing SRAM response can impose a half-cycle timing path.
 
-## Actual simulation screenshots
+## Simulation screenshots
 
-![Real GTKWave PCPI handshake screenshot](docs/images/gtkwave_pcpi_screenshot.jpg)
+<img width="861" height="488" alt="Screenshot 2026-11-19 at 9 25 19 PM" src="https://github.com/user-attachments/assets/25e8cbce-7a0b-4002-a1f1-5fa9dcfdc7bc" />
+
 
 PCPI valid/wait/ready and operand/result signals from the released gate-netlist simulation. Unknown values outside a valid transaction are visible rather than removed or redrawn.
 
-![Real GTKWave full SoC and UART screenshot](docs/images/gtkwave_soc_uart_screenshot.jpg)
+<img width="858" height="484" alt="Screenshot 2026-11-19 at 9 25 34 PM" src="https://github.com/user-attachments/assets/c4743423-481a-46b0-993b-49b8666529fb" />
+
 
 The full-run view shows the arithmetic test phase followed by UART transmissions and GPIO activity. Both waveform images are actual, unedited GTKWave window captures in the application's original colours. The selected-signal VCD is supplied in `simulation/traces/soc_gate.vcd.gz`.
 
